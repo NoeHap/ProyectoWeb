@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProyectoWeb</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Formación</li>
+                <li>Experiencia</li>
+                <li>Contacto</li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+        <img src="./Imagenes/Elaine.jpg" alt="">
+        <h1>Elaine Peterson</h1>
+        <h2>Docente especializada en TIC</h2>
+        </section>
+       
+        <section id="CV">
+        <h2>Formación y experiencia</h2>
+        <div class="CV - list">
+            <div class="CV - detail">
+                <h3>Formación</h3>
+                <img src="./Imagenes/Formacion.jpg" alt="">
+                
+                <p>Profesora de Matemática, Física y Cosmografía. Licenciada en educación. Especialista
+                     en EVA. Especialista en Educación y TIC. Entre 2 y 4 cursos anualesde capacitación 
+                     enenseñanza de la matemática, educación y TIC y programación.</p>
+            </div>
+            <div class="CV - detail ">
+                <h3>Experiencia laboral</h3>
+                <img src="./Imagenes/ExperienciaLaboral.jpg" alt="">
+                
+                <p>Profesora de Matemática de nivel secundario con 30 años de experiencia en el nivel. 
+                    Formadora de profesores de Matemática con 22 años de experiencia en el nivel superior.
+                    Tutora virtual de cursos y postítulos docentes en propuestas formadoras nacionales e
+                     internacionales.
+                </p>
+                <a href="http://"></a>
+            </div>
+        </div>
+        </section>
+        <section id="contact">
+            <h2>Contacte conmigo</h2>
+            <p>Si desea que le envíe mi CV detallado, por favor, complete el siguiente formulario.</p>
+            <form action="" method="">
+
+                <div class="Campos">
+                    <div>
+                        <label for="">Nombre</label>
+                        <input type="text"  name="Nombre" placeholder="Ingrese su nombre"/>
+                    </div>
+                    <div>
+                        <label for="">Apellido</label>
+                        <input type="text" name="Apellido" placeholder="Ingrese su apellido"/>
+                    </div>
+                    <div>
+                        <label for="">E-mail</label>
+                        <input type="email" name="email" placeholder="Ingrese su e-mail"/>
+                    </div>
+                </div>
+
+                <div class="Campos">
+                    <div>
+                        <label>Deje su mensaje</label>
+                        <textarea></textarea>
+                    </div>
+                </div>  
+                
+                <div class="Campos">
+                    <input type="submit" id= "boton4" name="Enviar">
+                    <p id="demo4" style="display: none;">¡Gracias por comunicarte!</p>
+                </div>
+                      
+             </form>
+                
+        </section>
+    </main>
+
+    <footer>
+        <h4>
+            Más datos
+        </h4>
+        <div class="Campos">
+            <div>
+                <button type="button" id="boton1">teléfono</button>
+                <p id="demo1" style="display: none;">0341-834-5555</p>
+                <button type="button" id="boton2">ciudad</button>
+                <p id="demo2" style="display: none;">Ciudadela</p>
+                <button type="button" id="boton3">país</button>
+                <p id="demo3" style="display: none;">España</p>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="js/Function.js"></script>
+</body>
+
+</html>
